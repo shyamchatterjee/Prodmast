@@ -5,14 +5,14 @@ let Home = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <div className="w-full flex flex-col items-center md: gap-3">
-        <h1 className="  font-bold md:text-3xl">The Future of Manufacturing</h1>
+        <h1 className="  font-bold text-2xl md:text-3xl">The Future of Manufacturing</h1>
         <div className="flex flex-row items-center gap-2">
-          <h1 className=" font-bold md:text-3xl ">with</h1>
-          <h1 className=" font-bold  text-green-950 md:text-3xl">
+          <h1 className=" font-bold text-2xl md:text-3xl ">with</h1>
+          <h1 className=" font-bold text-2xl  text-green-950 md:text-3xl">
             Latest Technology
           </h1>
         </div>
-        <p className="pera  md:mr-3">
+        <p className="peras1  md:mr-3">
           Expert tech to elevate your manufacturing.Let's take your business
           further.
         </p>
@@ -38,8 +38,8 @@ let Home = () => {
         <p className="font-bold  underline">reviews</p>
       </div>
        <div className="w-full flex md:flex-row flex-wrap items-center mt-7  justify-center  gap-3">
-                 <img src="https://img.freepik.com/premium-photo/industrial-factory-background-industry-pipe-rack-heat-chemical-manufacturing-equipment-steel-pipes_239711-11688.jpg" className="h-40 w-23 rounded-2xl md:h-55 md:w-40 " alt="" />
-                 <div className="w-30 h-40 bg-green-950 text-white rounded-2xl  flex flex-col items-center justify-center md:w-35 md:h-45">
+                 <img src="https://img.freepik.com/premium-photo/industrial-factory-background-industry-pipe-rack-heat-chemical-manufacturing-equipment-steel-pipes_239711-11688.jpg" className="h-55 w-40 rounded-2xl md:h-55 md:w-40 " alt="" />
+                 <div className="w-35 h-45 bg-green-950 text-white rounded-2xl  flex flex-col items-center justify-center md:w-35 md:h-45">
                           <p>100+</p>
                           <p className="text-sm">Our Esteemed</p>
                           <p className="text-sm ">Clients and</p>
