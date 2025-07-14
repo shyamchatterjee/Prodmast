@@ -13,7 +13,7 @@ let Home = () => {
             Latest Technology
           </h1>
         </div>
-        <p className="peras1  md:mr-3">
+        <p className="peras1  ">
           Expert tech to elevate your manufacturing.Let's take your business
           further.
         </p>
