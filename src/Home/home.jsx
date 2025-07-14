@@ -2,6 +2,7 @@ import { FaStar } from "react-icons/fa6";
 import { MdOutlineWeb } from "react-icons/md";
 import { RiAccountPinCircleLine } from "react-icons/ri";
 import { IoMdSpeedometer } from "react-icons/io";
+import { BsSpeedometer } from "react-icons/bs";
 let Home = () => {
   return (
     <div className="w-full flex flex-col items-center">
@@ -69,7 +70,7 @@ let Home = () => {
 
 <div className="block flex mt-4 justify-center items-center flex-row flex-wrap gap-3 md:hidden">
            
-                 <img src="https://img.freepik.com/premium-photo/industrial-factory-background-industry-pipe-rack-heat-chemical-manufacturing-equipment-steel-pipes_239711-11688.jpg" className="h-40 w-28 rounded-2xl " alt="" />
+                 <img src="https://img.freepik.com/premium-photo/industrial-factory-background-industry-pipe-rack-heat-chemical-manufacturing-equipment-steel-pipes_239711-11688.jpg" className="h-50 w-33 rounded-2xl " alt="" />
                  <div className="w-25 h-40 bg-green-950 text-white rounded-2xl  flex flex-col items-center justify-center">
                           <p>100+</p>
                           <p className="text-sm">Our Esteemed</p>
@@ -93,7 +94,7 @@ let Home = () => {
                                 <p>Service</p>
                  </div>
                  <div className="box2 w-40 h-55  p-2  flex flex-col  text-white rounded-2xl">
-                             <IoMdSpeedometer className="text-white mt-27 text-2xl"/>
+                             <BsSpeedometer className="text-white mt-27 text-2xl block"/>
                         <p  >Achieve Optimal</p>
                         <p>Efficiency and Boost</p>
                         <p>Productivity</p>
