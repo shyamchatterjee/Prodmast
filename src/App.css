@@ -15,11 +15,11 @@ body{
 }
 .bar{
      
-     box-shadow: 0  0 1px 0 black;
+    
      font-size: 10px;
      width: 200px;
      background: transparent;
-     backdrop-filter: blur(12px);
+     backdrop-filter: blur(8px);
 }
 @media (max-width:667px) {
       .bar{
