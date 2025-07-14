@@ -77,6 +77,12 @@ let Home = () => {
                           <p className="text-sm ">Clients and</p>
                           <p className="text-sm">Partners</p>
                  </div>
+                 <div className="box w-30 h-45  flex justify-center items-center flex-col rounded-2xl">
+                                <p className="text-2xl font-bold">6+</p>
+                                <p>Years of</p>
+                                <p>Dedicated</p>
+                                <p>Service</p>
+                 </div>
                  <div className="w-35  bg-white p-2 flex flex-col  gap-2 rounded-2xl">
                      <div className="w-full flex justify-between items-center">
                            <MdOutlineWeb className="bg-green-200 p-1 text-2xl"/>
@@ -87,12 +93,7 @@ let Home = () => {
                      <p className="txt-sm">Increase of 126 this month</p>
                  </div>
                  
-                 <div className="box w-30 h-45  flex justify-center items-center flex-col rounded-2xl">
-                                <p className="text-2xl font-bold">6+</p>
-                                <p>Years of</p>
-                                <p>Dedicated</p>
-                                <p>Service</p>
-                 </div>
+                 
                  <div className="box2 w-30 h-45  p-2  flex flex-col justify-end  text-white rounded-2xl">
                              <IoMdSpeedometer className="text-white  text-2xl block"/>
                         <p  >Achieve Optimal</p>
