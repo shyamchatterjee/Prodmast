@@ -93,8 +93,8 @@ let Home = () => {
                                 <p>Dedicated</p>
                                 <p>Service</p>
                  </div>
-                 <div className="box2 w-40 h-55  p-2  flex flex-col  text-white rounded-2xl">
-                             <BsSpeedometer className="text-white mt-27 text-2xl block"/>
+                 <div className="box2 w-40 h-55  p-2  flex flex-col justify-end  text-white rounded-2xl">
+                             <BsSpeedometer className="text-white  text-2xl block"/>
                         <p  >Achieve Optimal</p>
                         <p>Efficiency and Boost</p>
                         <p>Productivity</p>
