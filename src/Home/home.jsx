@@ -38,7 +38,7 @@ let Home = () => {
         <p>from 80+ </p>
         <p className="font-bold  underline">reviews</p>
       </div>
-       <div className="w-full flex md:flex-row flex-wrap items-center mt-7  justify-center  gap-3">
+       <div className="w-full flex md:flex-row flex-wrap items-center mt-7  justify-center  gap-4">
                  <img src="https://img.freepik.com/premium-photo/industrial-factory-background-industry-pipe-rack-heat-chemical-manufacturing-equipment-steel-pipes_239711-11688.jpg" className="h-55 w-40 rounded-2xl md:h-55 md:w-40 " alt="" />
                  <div className="w-35 h-45 bg-green-950 text-white rounded-2xl  flex flex-col items-center justify-center md:w-35 md:h-45">
                           <p>100+</p>

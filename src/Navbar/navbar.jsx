@@ -5,9 +5,9 @@ import { Context } from "../../Context/context";
 let Navbar = ()=>{
    
    let {bool,setBool} = useContext(Context)
-    return <div className=" nav  w-full h-15 md:h-20 bg-white flex justify-between p-2 items-center md:p-3 ">
+    return <div className=" nav  w-full h-18 md:h-20 bg-white flex justify-between p-2 items-center md:p-3 ">
           <div className="flex items-center">
-                <img src="https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png" className="h-8 w-8 md:w-13 md:h-10" alt="" />
+                <img src="https://tse2.mm.bing.net/th/id/OIP.CTZVRe2QsSp0H7iUwdTpwQHaEv?r=0&pid=ImgDet&w=474&h=303&rs=1&o=7&rm=3" className="h-8 w-8 md:w-13 md:h-10" alt="" />
                 <p className="  text-1xl   md: text-2xl">Prodmast</p>
           </div>
           <div className=" hidden md:flex items-center justify-around  gap-3 text-2xl">
