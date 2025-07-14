@@ -13,10 +13,7 @@ let Home = () => {
             Latest Technology
           </h1>
         </div>
-        <p className="peras1  ">
-          Expert tech to elevate your manufacturing.Let's take your business
-          further.
-        </p>
+        
       </div>
       <div className="mt-6 w-full flex justify-center items-center gap-2">
         <button className="w-30 p-2 bg-green-950 rounded-full text-white cursor-pointer">

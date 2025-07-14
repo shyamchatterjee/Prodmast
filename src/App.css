@@ -14,8 +14,23 @@ body{
      background-color: #eaeaea;
 }
 .bar{
+     
      box-shadow: 0  0 1px 0 black;
      font-size: 10px;
+     width: 200px;
+     background: transparent;
+     backdrop-filter: blur(12px);
+}
+@media (max-width:667px) {
+      .bar{
+          margin-left: 120px;
+
+        }
+}
+@media (max-width:932px) {
+        .bar{
+          width: 300px;
+        }
 }
 .nav{
      background-color: #fff;
