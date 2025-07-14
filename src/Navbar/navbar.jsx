@@ -8,7 +8,7 @@ let Navbar = ()=>{
     return <div className=" nav  w-full  p-3 mt-2  rounded-full bg-white flex justify-between p-2 items-center md:p-3 ">
           <div className="flex items-center">
                 <img src="https://tse2.mm.bing.net/th/id/OIP.CTZVRe2QsSp0H7iUwdTpwQHaEv?r=0&pid=ImgDet&w=474&h=303&rs=1&o=7&rm=3" className="h-8 w-8 md:w-13 md:h-10" alt="" />
-                <p className="  text-1xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500   md: text-2xl">Prodmast</p>
+                <p className="  text-1xl bg-gradient-to-r from-pink-300 to-teal-300  via-purple-300 bg-clip-text text-transparent  md: text-2xl">Prodmast</p>
           </div>
           <div className=" hidden md:flex items-center justify-around  gap-3 text-2xl">
             <p>Home</p>
