@@ -1,6 +1,7 @@
 import { FaStar } from "react-icons/fa6";
 import { MdOutlineWeb } from "react-icons/md";
 import { RiAccountPinCircleLine } from "react-icons/ri";
+import { IoMdSpeedometer } from "react-icons/io";
 let Home = () => {
   return (
     <div className="w-full flex flex-col items-center">
@@ -61,7 +62,7 @@ let Home = () => {
                                 <p>Service</p>
                  </div>
                  <div className="box2 w-40 h-55  p-2  flex flex-col  text-white rounded-2xl">
-                             <RiAccountPinCircleLine className="text-white mt-27 text-1xl"/>
+                             <IoMdSpeedometer className="text-white mt-27 text-1xl"/>
                         <p  >Achieve Optimal</p>
                         <p>Efficiency and Boost</p>
                         <p>Productivity</p>

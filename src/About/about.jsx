@@ -6,13 +6,13 @@ import { BiShieldQuarter } from "react-icons/bi";
 import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
 import { MdShowChart } from "react-icons/md";
 let About = ()=>{
-    return <div className="box2 w-full  flex flex-col gap-2 p-2">
+    return <div className="box2 w-full p-3  flex flex-col gap-2 ">
             <div className="flex justify-center items-center flex-col text-white">
-                   <h2 className="mt-15 text-2xl ">Efficient and Integrated </h2>
+                   <h2 className="mt-10 text-2xl ">Efficient and Integrated </h2>
                    <h2 className="text-2xl">Manufacturing service</h2>
                    <p className="pera">simple operations with efficient, quality-focused services.</p>
             </div>
-            <div className="mt-7 w-full flex flex-row  flex-wrap gap-2 justify-center md:flex-wrap" >
+            <div className="mt-7 w-full flex flex-row  flex-wrap gap-3 justify-center md:flex-wrap" >
                   <div className="box3 w-35 p-3  flex flex-col rounded-2xl gap-2 text-white md:w-45 ">
                        <div className="flex items-center justify-between">
                            <FaStarOfLife className="text-sm" />
