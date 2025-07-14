@@ -1,0 +1,38 @@
+
+@import "tailwindcss";
+body{
+     background-color: #eaeaea;
+}
+#root{
+     background-color: #eaeaea;
+    padding: 1rem;
+   width: 100%; 
+    
+}
+.div{
+     margin: auto;
+     background-color: #eaeaea;
+}
+.bar{
+     box-shadow: 0  0 1px 0 black;
+     font-size: 10px;
+}
+.nav{
+     background-color: #fff;
+}
+.peras{
+     font-size: 20px;
+}
+.pera{
+    font-size: 12px;
+}
+
+.box{
+     background-color: #E3FFCC;
+}
+.box2{
+     background-color:  #11282b;
+}
+.box3{
+   background-color: #142F32;
+}
