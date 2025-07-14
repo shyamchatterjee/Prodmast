@@ -68,7 +68,7 @@ let Home = () => {
        </div>
 
 
-<div className="block flex mt-4 justify-center items-center flex-row flex-wrap gap-3  md:hidden">
+<div className="block flex mt-4 justify-center items-center flex-row flex-wrap gap-2  box-border md:hidden">
            
                  <img src="https://img.freepik.com/premium-photo/industrial-factory-background-industry-pipe-rack-heat-chemical-manufacturing-equipment-steel-pipes_239711-11688.jpg" className="h-40 w-28 rounded-2xl " alt="" />
                  <div className="w-25 h-40 bg-green-950 text-white rounded-2xl  flex flex-col items-center justify-center">
