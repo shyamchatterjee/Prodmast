@@ -96,10 +96,10 @@ let Service = () => {
                          <button className=" mt-2 cursor-pointer w-full p-1 bg-transparent border-1 rounded-2xl border-b-green-200">Get Started</button>
                            <p style={{marginTop:"5px" , fontSize:"13px",textAlign:"center"}}>Features</p>
                             <div className="flex  gap-1">
-                        <HiCheckCircle className="text-white mt-1.5"/>
+                        <HiCheckCircle style={{fontSize:"17px"}} className="text-white mt-1.5 text-1xl"/>
                         <p>Production up to 10,000 units per month</p></div>
                        <div className="flex  gap-1 ">
-                        <HiCheckCircle className="text-white mt-1.5 "/>
+                        <HiCheckCircle style={{fontSize:"17px"}} className="text-white mt-1.5 text-1xl "/>
                         <p>24/7 technical support</p></div>
                     <div className="flex  gap-1 ">
                         <HiCheckCircle className="text-white mt-1.5 "/>
