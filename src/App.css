@@ -15,9 +15,9 @@ body {
 .bar {
   position: fixed;
   display: flex;
-  /* justify-content: center; */
+   justify-content: flex-start; 
   flex-direction: column;
-  align-items: center;
+
   top: 0;
   gap: 30px;
   background-color: #1f0016;
@@ -52,7 +52,7 @@ body {
   width: 100%;
   padding: 1rem;
   background-color: #0061ff;
-  text-align: center;
+  
   color: #fff;
 }
 .pera {
