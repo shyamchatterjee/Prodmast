@@ -1,101 +1,96 @@
-
 @import "tailwindcss";
-body{
-     background-color: #eaeaea;
+body {
+  background-color: #eaeaea;
 }
-#root{
-     background-color: #eaeaea;
-    height:100% ;
-   width: 100%; 
-   
+#root {
+  background-color: #eaeaea;
+  height: 100%;
+  width: 100%;
 }
-.div{
-     margin: auto;
-     background-color: #eaeaea;
+.div {
+  margin: auto;
+  background-color: #eaeaea;
 }
-.bar{
-      position: fixed;
-        display: flex;
-        /* justify-content: center; */
-        flex-direction: column;
-        align-items: center;
-        top: 0;
-        gap: 30px;
-        background-color: #1f0016;
-        width: 380px;
-        height: 100%;
-        z-index: 2;
-     
-        
-    font-size: 10px;
-    right: -100;
-     background: transparent;
-     backdrop-filter: blur(10px);
-      transition: 5s ease-out; 
-}
-@media (max-width:667px) {
-      .bar{
-          margin-left: 120px;
+.bar {
+  position: fixed;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  gap: 30px;
+  background-color: #1f0016;
+  width: 380px;
+  height: 100%;
+  z-index: 2;
 
-        }
+  font-size: 10px;
+
+  background: transparent;
+  backdrop-filter: blur(10px);
+  transition: 5s ease-out;
 }
-@media (max-width:932px) {
-        .bar{
-          width: 300px;
-        }
+@media (max-width: 667px) {
+  .bar {
+    margin-left: 120px;
+  }
 }
-.nav{
-     background-color: #fff;
+@media (max-width: 932px) {
+  .bar {
+    width: 300px;
+  }
 }
-.peras{
-     font-size: 20px;
+.nav {
+  background-color: #fff;
 }
-.peras:hover{
-      font-size: 20px;
-     width: 100%;
-     padding: 1rem;
-    background-color:#0061ff;
-    text-align: center;
-    color: #fff;
+.peras {
+  font-size: 20px;
 }
-.pera{
-    font-size: 12px;
+.peras:hover {
+  font-size: 20px;
+  width: 100%;
+  padding: 1rem;
+  background-color: #0061ff;
+  text-align: center;
+  color: #fff;
 }
-.peras1{
-     font-size: 0.7rem;
+.pera {
+  font-size: 12px;
 }
-.box{
-     background-color: #E3FFCC;
+.peras1 {
+  font-size: 0.7rem;
 }
-.box2{
-     background-color:  #11282b;
+.box {
+  background-color: #e3ffcc;
 }
-.box3{
-   background-color: #142F32;
-   
+.box2 {
+  background-color: #11282b;
 }
-.mini-box{
-     width: 150px;
-     height: 15px;
-     background-color: #eaeaea;
-     border-radius: 5px;
+.box3 {
+  background-color: #142f32;
 }
-.mini-boxes{
-      width: 100%;
-     height: 15px;
-     background-color: #eaeaea;
-     border-radius: 5px;
+.mini-box {
+  width: 150px;
+  height: 15px;
+  background-color: #eaeaea;
+  border-radius: 5px;
 }
-.mini-box2{
-      background-color: #142F32;
-      border-radius: 2px;
+.mini-boxes {
+  width: 100%;
+  height: 15px;
+  background-color: #eaeaea;
+  border-radius: 5px;
 }
-.fixed{
-     position: absolute;
-     z-index: 2;
-     margin-left: 150px;
-     margin-top: 180px;
+.mini-box2 {
+  background-color: #142f32;
+  border-radius: 2px;
 }
-.color{
-     background-color: #282930;
+.fixed {
+  position: absolute;
+  z-index: 2;
+  margin-left: 150px;
+  margin-top: 180px;
+}
+.color {
+  background-color: #282930;
 }
