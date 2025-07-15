@@ -3,6 +3,7 @@ body {
   background-color: #eaeaea;
 }
 #root {
+     padding: 10px;
   background-color: #eaeaea;
   height: 100%;
   width: 100%;
