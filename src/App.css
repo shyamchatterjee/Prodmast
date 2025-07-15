@@ -19,7 +19,7 @@ body {
   flex-direction: column;
 
   top: 0;
-  gap: 30px;
+  gap: 10px;
   background-color: #1f0016;
   width: 380px;
   height: 100%;
@@ -45,8 +45,10 @@ body {
   background-color: #fff;
 }
 .peras {
+  padding: 1rem;
   font-size: 20px;
 }
+
 .peras:hover {
   font-size: 20px;
   width: 100%;
@@ -63,6 +65,9 @@ body {
 }
 .box {
   background-color: #e3ffcc;
+}
+.boxss {
+  background-color: #b5e290;
 }
 .box2 {
   background-color: #11282b;

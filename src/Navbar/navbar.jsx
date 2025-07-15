@@ -17,14 +17,14 @@ let Navbar = ()=>{
             <p>Contect</p>
           </div>
            <div className={bool==false?"hidden":" block bar md:hidden"}>
-            <IoMdClose  className="text-2xl cursor-pointer mt-10  "   onClick={()=>{setBool(false)}}/>
-            <p className="peras ">Home</p>
-            <p className="peras">About</p>
-            <p className="peras">Service</p>
-            <p className="peras">Contect</p>
+            <IoMdClose  className="ml-8  text-2xl cursor-pointer mt-10  "   onClick={()=>{setBool(false)}}/>
+            <p className="peras  ">Home</p>
+            <p className="peras ">About</p>
+            <p className="peras ">Service</p>
+            <p className="peras  ">Contect</p>
             <button className=" bg-green-950 rounded-full w-26 p-2  text-white cursor-pointer">Sign Up</button>
           </div>
-          <button className="  hidden md:block bg-green-950 rounded-full w-22 p-2  text-white cursor-pointer">Sign Up</button>
+          <button className="  hidden md:block bg-green-950 rounded-full w-25 p-3  text-white cursor-pointer">Sign Up</button>
            <FaBarsStaggered onClick={()=>{setBool(true)}}  className=" md:hidden  text-3xl cursor-pointer text-black"/> 
         
           

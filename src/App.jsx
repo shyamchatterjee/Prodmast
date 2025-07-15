@@ -6,7 +6,7 @@ import { Context } from '../Context/context'
 import About from './About/about'
 import Service from './Service/service'
 let App = ()=>{
-     let {bool,setBool} = useContext(Context)
+     
     return <> <div  className=' div flex flex-col items-center gap-10 '>
        <Navbar/>
        <Home/>
