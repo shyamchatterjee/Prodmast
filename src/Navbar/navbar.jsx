@@ -3,6 +3,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
 import { Context } from "../../Context/context";
 import { FaBars } from "react-icons/fa6";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 let Navbar = () => {
   let { bool, setBool } = useContext(Context);
   return (
@@ -16,10 +17,10 @@ let Navbar = () => {
         <p style={{ fontSize: "20px" }}>Prodmast</p>
       </div>
       <div className=" hidden md:flex items-center justify-around  gap-3 text-2xl">
-        <p>Home</p>
-        <p>About</p>
-        <p>Service</p>
-        <p>Contect</p>
+       <AnchorLink href="#home"><p>Home</p></AnchorLink> 
+       <AnchorLink href="#about"><p>About</p></AnchorLink> 
+       <AnchorLink href="#service"> <p>Service</p></AnchorLink>
+      <AnchorLink href="#contect"> <p>Contect</p></AnchorLink> 
       </div>
       <div className={bool == false ? "hidden" : " block bar md:hidden"}>
         <IoMdClose
@@ -28,10 +29,10 @@ let Navbar = () => {
             setBool(false);
           }}
         />
-        <p className="peras  ">Home</p>
-        <p className="peras ">About</p>
-        <p className="peras ">Service</p>
-        <p className="peras  ">Contect</p>
+       <AnchorLink href="#home"><p className="peras">Home</p></AnchorLink> 
+       <AnchorLink href="#about"><p className="peras">About</p></AnchorLink> 
+       <AnchorLink href="#service"> <p className="peras">Service</p></AnchorLink>
+      <AnchorLink href="#contect"> <p  className="peras">Contect</p></AnchorLink> 
         <button className="button">
           Sign Up
         </button>

@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 let Contect = () => {
   return (
-    <div className="w-full bg-black text-white p-5">
+    <div  id="contect" className="w-full bg-black text-white p-5">
       <div className=" mt-3 w-full flex items-center flex-col gap-5 md:flex-row md:justify-center md:gap-5 ">
         <div className="flex items-center flex-col gap-2 ">
           <div className="flex gap-1 items-center">

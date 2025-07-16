@@ -6,7 +6,7 @@ import { BiShieldQuarter } from "react-icons/bi";
 import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
 import { MdShowChart } from "react-icons/md";
 let About = ()=>{
-    return <div className="mt-4  box2 w-full p-3  flex flex-col gap-2 ">
+    return <div id="about" className="mt-4  box2 w-full p-3  flex flex-col gap-2 ">
             <div className="flex justify-center items-center flex-col text-white">
                    <h2 className="mt-10 text-2xl ">Efficient and Integrated </h2>
                    <h2 className="text-2xl">Manufacturing service</h2>

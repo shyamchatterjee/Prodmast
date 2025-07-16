@@ -2,7 +2,7 @@ import { MdOutlineWeb } from "react-icons/md";
 import { HiCheckCircle } from "react-icons/hi";
 let Service = () => {
   return (
-    <div className=" mt-4 w-full flex flex-col gap-3">
+    <div id="service" className=" mt-4 w-full flex flex-col gap-3">
       
       <div className="w-full flex justify-center items-center flex-col gap-4 p-2 md:justify-center md:gap-16 md:flex-row">
         <div className="w-50 p-2  bg-white rounded-2xl flex flex-col gap-2 md:w-80 md:p-4 ">
