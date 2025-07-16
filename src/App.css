@@ -100,3 +100,12 @@ body {
 .color {
   background-color: #282930;
 }
+.button{
+  margin-left: 10px;
+  width: 120px;
+  height: 35px;
+  background-color: #142f32;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
