@@ -20,7 +20,7 @@ body {
 
   top: 0;
   gap: 10px;
-  background-color: #1f0016;
+  
   width: 380px;
   height: 100%;
   z-index: 2;
@@ -108,4 +108,21 @@ body {
   color: white;
   border: none;
   border-radius: 1rem;
+}
+.input{
+  border-radius: 7px;
+}
+.input:focus{
+  border: rgb(44, 156, 44);
+}
+.buttons{
+  border-radius: 7px;
+}
+.form{
+  position: fixed;
+  z-index: 9999;
+  
+  background-color: #fff;
+  display: grid;
+    
 }
