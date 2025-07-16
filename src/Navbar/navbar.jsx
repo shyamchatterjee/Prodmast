@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa6";
 let Navbar = ()=>{
    
    let {bool,setBool} = useContext(Context)
-    return  <div className=" nav  w-full  mt-2  rounded-full bg-white flex md:justify-around items-center md:flex-row justify-between p-4   ">
+    return  <div className=" nav  w-full  mt-2   rounded-full bg-white flex md:justify-around items-center md:flex-row justify-between p-4   ">
           <div className="flex items-center">
                 <img src="https://cdn.vectorstock.com/i/500p/45/61/lion-head-logo-esports-line-art-vector-52294561.jpg" className="h-8 w-10 md:w-13 md:h-10" alt="" />
                 <p style={{fontSize:"20px"}}>Prodmast</p>

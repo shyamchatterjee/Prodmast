@@ -5,7 +5,7 @@ import { IoMdSpeedometer } from "react-icons/io";
 import { BsSpeedometer } from "react-icons/bs";
 let Home = () => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="mt-4 w-full flex flex-col items-center">
       <div className="w-full flex flex-col items-center md: gap-3">
         <h1 className="  font-bold text-2xl md:text-3xl">The Future of Manufacturing</h1>
         <div className="flex flex-row items-center gap-2">
@@ -25,11 +25,11 @@ let Home = () => {
         </button>
       </div>
       <div className=" mt-6 w-full flex justify-center items-center gap-2">
-        <FaStar className="text-yellow-500" />
-        <FaStar className="text-yellow-500" />
-        <FaStar className="text-yellow-500 " />
-        <FaStar className="text-yellow-500" />
-        <FaStar className="text-yellow-500" />
+        <FaStar className="text-yellow-500 text-2xl" />
+        <FaStar className="text-yellow-500 text-2xl" />
+        <FaStar className="text-yellow-500 text-2xl " />
+        <FaStar className="text-yellow-500 text-2xl"/>
+        <FaStar className="text-yellow-500 text-2xl" />
         <p className="font-bold">5.0</p>
       </div>
       <div className="w-full flex justify-center items-center gap-2">

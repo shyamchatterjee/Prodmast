@@ -2,8 +2,8 @@ import { MdOutlineWeb } from "react-icons/md";
 import { HiCheckCircle } from "react-icons/hi";
 let Service = () => {
   return (
-    <div className="w-full flex flex-col gap-3">
-      {" "}
+    <div className=" mt-4 w-full flex flex-col gap-3">
+      
       <div className="w-full flex justify-center items-center flex-col gap-4 p-2 md:justify-center md:gap-16 md:flex-row">
         <div className="w-50 p-2  bg-white rounded-2xl flex flex-col gap-2 md:w-80 md:p-4 ">
           <div className="flex flex-col gap-2">
@@ -135,23 +135,23 @@ let Service = () => {
             <div className="flex  gap-1">
               <HiCheckCircle
                 style={{ fontSize: "17px" }}
-                className="text-white mt-1.5 text-1xl"
+                className="text-white mt-1.5"
               />
               <p>Production up to 10,000 units per month</p>
             </div>
             <div className="flex  gap-1 ">
               <HiCheckCircle
                 style={{ fontSize: "17px" }}
-                className="text-white mt-1.5 text-1xl "
+                className="text-white mt-1.5 "
               />
               <p>24/7 technical support</p>
             </div>
             <div className="flex  gap-1 ">
-              <HiCheckCircle className="text-white mt-1.5 " />
+              <HiCheckCircle className="text-white mt-1.5" />
               <p>Access the production deshbord</p>
             </div>
             <div className="flex  gap-1 ">
-              <HiCheckCircle className="text-white mt-1.5 " />
+              <HiCheckCircle className="text-white mt-1.5" />
               <p>Initial setup guide</p>
             </div>
           </div>
@@ -216,7 +216,7 @@ let Service = () => {
         </div>
          
       </div>
-      <div className="w-full p-2 box2 flex justify-center flex-col gap-2 items-center text-white ">
+      <div className="w-full p-4 box2 flex justify-center flex-col gap-2 items-center text-white ">
                  <h2 className=" text-1xl text-center  md:text-2xl">
             Form Idea to Production in Days
           </h2>

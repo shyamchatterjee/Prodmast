@@ -5,13 +5,15 @@ import Navbar from './Navbar/navbar'
 import { Context } from '../Context/context'
 import About from './About/about'
 import Service from './Service/service'
+import Contect from './Contect/contect'
 let App = ()=>{
      
-    return <> <div  className=' div flex flex-col items-center gap-10 '>
-       <Navbar/>
+    return <> <div  className=' div flex flex-col items-center  '>
+       <Navbar />
        <Home/>
        <About/>
        <Service/>
+       <Contect/>
     </div>
            
     </>
