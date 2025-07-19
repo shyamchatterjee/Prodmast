@@ -3,7 +3,6 @@ body {
   background-color: #eaeaea;
 }
 #root {
-    
   background-color: #eaeaea;
   height: 100%;
   width: 100%;
@@ -15,12 +14,12 @@ body {
 .bar {
   position: fixed;
   display: flex;
-   justify-content: flex-start; 
+  justify-content: flex-start;
   flex-direction: column;
 
   top: 0;
   gap: 10px;
-  
+
   width: 380px;
   height: 100%;
   z-index: 2;
@@ -54,7 +53,7 @@ body {
   width: 100%;
   padding: 1rem;
   background-color: #0061ff;
-  
+
   color: #fff;
 }
 .pera {
@@ -100,29 +99,27 @@ body {
 .color {
   background-color: #282930;
 }
-.button{
-  margin-left: 10px;
+.button {
   width: 120px;
-  height: 35px;
-  background-color: #142f32;
-  color: white;
-  border: none;
+  height: 40px;
   border-radius: 1rem;
+  color: white;
+  background-color: #142f32;
+  cursor: pointer;
 }
-.input{
+.input {
   border-radius: 7px;
 }
-.input:focus{
+.input:focus {
   border: rgb(44, 156, 44);
 }
-.buttons{
+.buttons {
   border-radius: 7px;
 }
-.form{
+.form {
   position: fixed;
   z-index: 9999;
-  
+
   background-color: #fff;
   display: grid;
-    
 }

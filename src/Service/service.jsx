@@ -3,7 +3,6 @@ import { HiCheckCircle } from "react-icons/hi";
 let Service = () => {
   return (
     <div id="service" className=" mt-4 w-full flex flex-col gap-3">
-      
       <div className="w-full flex justify-center items-center flex-col gap-4 p-2 md:justify-center md:gap-16 md:flex-row">
         <div className="w-50 p-2  bg-white rounded-2xl flex flex-col gap-2 md:w-80 md:p-4 ">
           <div className="flex flex-col gap-2">
@@ -214,17 +213,17 @@ let Service = () => {
             work with us
           </button>
         </div>
-         
       </div>
       <div className="w-full p-4 box2 flex justify-center flex-col gap-2 items-center text-white ">
-                 <h2 className=" text-1xl text-center  md:text-2xl">
-            Form Idea to Production in Days
-          </h2>
-          <p>Accelerate your production with our technology. </p> <p> Reduce downtime and optimize </p> <p> Get a specail offer now!</p>
-                    <button className="boxss mt-2 text-black p-2 w-30 rounded-2xl  cursor-pointer">
-            work with us
-          </button>
-         </div>
+        <h2 className=" text-1xl text-center  md:text-2xl">
+          Form Idea to Production in Days
+        </h2>
+        <p>Accelerate your production with our technology. </p>{" "}
+        <p> Reduce downtime and optimize </p> <p> Get a specail offer now!</p>
+        <button className="boxss mt-2 text-black p-2 w-30 rounded-2xl  cursor-pointer">
+          work with us
+        </button>
+      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 let Contect = () => {
   return (
-    <div  id="contect" className="w-full bg-black text-white p-5">
+    <div id="contect" className="w-full bg-black text-white p-5">
       <div className=" mt-3 w-full flex items-center flex-col gap-5 md:flex-row md:justify-center md:gap-5 ">
         <div className="flex items-center flex-col gap-2 ">
           <div className="flex gap-1 items-center">
@@ -35,31 +35,31 @@ let Contect = () => {
             <p style={{ fontSize: "14px" }}>Aerospace</p>
           </div>
         </div>
-        
-          <div className="flex flex-col items-center gap-2 ">
-            <p style={{ fontSize: "18px" }}>Products</p>
-            <p style={{ fontSize: "14px" }}>Manufacturing Execution System</p>
-            <p style={{ fontSize: "14px" }}>Enterprise Resource Planing</p>
 
-            <p style={{ fontSize: "14px" }}> Quality Managment System</p>
-            <p style={{ fontSize: "14px" }}>Supply Chain Planing</p>
+        <div className="flex flex-col items-center gap-2 ">
+          <p style={{ fontSize: "18px" }}>Products</p>
+          <p style={{ fontSize: "14px" }}>Manufacturing Execution System</p>
+          <p style={{ fontSize: "14px" }}>Enterprise Resource Planing</p>
+
+          <p style={{ fontSize: "14px" }}> Quality Managment System</p>
+          <p style={{ fontSize: "14px" }}>Supply Chain Planing</p>
+        </div>
+
+        <div className="flex flex-col items-center gap-2 ">
+          <p style={{ fontSize: "18px" }}>Get in Touch</p>
+          <p>hello@prodmast.com</p>
+          <div className="flex items-center gap-1">
+            <FaLinkedin />
+            <FaInstagram />
+            <FaFacebookSquare />
           </div>
-
-          <div className="flex flex-col items-center gap-2 ">
-            <p style={{ fontSize: "18px" }}>Get in Touch</p>
-            <p>hello@prodmast.com</p>
-            <div className="flex items-center gap-1">
-            <FaLinkedin/>
-            <FaInstagram/>
-            <FaFacebookSquare/>
         </div>
-        </div>
-    </div>
-    <div className="mt-4  w-full border-b-1"></div>
-         <div className="mt-4  flex justify-between items-center">
-                <p style={{fontSize:"10px"}}>@2025 prodmast. All rights reserved</p>
-                <p   style={{fontSize:"10px"}}>Terms & Condition   Privecy Policy</p>
-         </div>
+      </div>
+      <div className="mt-4  w-full border-b-1"></div>
+      <div className="mt-4  flex justify-between items-center">
+        <p style={{ fontSize: "10px" }}>@2025 prodmast. All rights reserved</p>
+        <p style={{ fontSize: "10px" }}>Terms & Condition Privecy Policy</p>
+      </div>
     </div>
   );
 };
