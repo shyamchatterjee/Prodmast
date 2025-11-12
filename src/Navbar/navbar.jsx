@@ -5,7 +5,8 @@ import { Context } from "../../Context/context";
 import { FaBars } from "react-icons/fa6";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 let Navbar = () => {
-  let { bool, setBool, setboolen, boolen } = useContext(Context);
+  let { bool, setBool, setboolen, boolen, setposition, position } =
+    useContext(Context);
   return (
     <div className=" nav  w-full  mt-2   rounded-full bg-white flex md:justify-around items-center md:flex-row justify-between p-4   ">
       <div className="flex items-center">

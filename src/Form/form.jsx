@@ -2,14 +2,11 @@ import { useContext } from "react";
 import { IoMdClose } from "react-icons/io";
 import { Context } from "../../Context/context";
 let Form = () => {
-  let { boolen, setboolen, curreState, setState } = useContext(Context);
+  let { boolen, setboolen, curreState, setState, setposition, position } =
+    useContext(Context);
   return (
     <div
-      className={
-        boolen == false
-          ? "hidden"
-          : "form w-70 bg-white  p-3 top-0 fixed mr-40 rounded-2xl"
-      }
+      className={boolen == false ? "hidden" : "form w-70 mt-44 rounded-2xl  "}
     >
       {curreState === true ? (
         <form

@@ -8,11 +8,12 @@ import Service from "./Service/service";
 import Contect from "./Contect/contect";
 import Form from "./Form/form";
 let App = () => {
+  let { position } = useContext(Context);
   return (
     <>
-      {" "}
       <div className=" div flex flex-col items-center  ">
         <Navbar />
+
         <Home />
         <Form />
         <About />
